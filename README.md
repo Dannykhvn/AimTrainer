@@ -28,6 +28,7 @@ To run AimTrainer on your local machine, follow these steps:
    ```
    
 **Set Up a Virtual Environment**
+
 Create and activate a virtual environment to manage dependencies:
 
 ```bash
@@ -36,6 +37,7 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
 
 **Install Dependencies**
+
 Install the required Python packages using pip:
 
 ```bash
@@ -43,6 +45,7 @@ pip install -r requirements.txt
 ```
 
 **How to Play**
+
 Run the game by executing the following command:
 
 ```bash
