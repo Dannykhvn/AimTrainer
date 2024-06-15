@@ -16,6 +16,18 @@ ClickBot is a Python-based game developed using Pygame and Object-Oriented Progr
 
 In AimTrainer, your objective is to click on the shapes that appear randomly on the screen within a time limit. Each shape has different characteristics such as color, size, and points value. The game will track your score and display it in real-time. After the time limit is reached, the game will end and display your final score.
 
+## Game Modes
+
+- **Classic Mode**: The target appears randomly on the screen, and the player must click on it to score points.
+- **Training Mode**: The target appears randomly on a grid and moves every few seconds. The player must click on it to score points.
+
+## Screens
+
+- **Level Screen**: Choose between Classic and Training modes or quit the game.
+- **Game Screen**: The main game screen for Classic mode.
+- **Training Screen**: The main game screen for Training mode.
+- **Game Over Screen**: Displays the score and gives the option to play again or quit.
+
 ## Installation
 
 To run AimTrainer on your local machine, follow these steps:
@@ -67,6 +79,7 @@ textbox.py: Contains the TextBox class for creating and managing text boxes in t
 base_screen.py: Provides a base class for different screens in the game.
 gameover.py: Defines the GameOverScreen class to handle the game over screen logic.
 game.py: Contains the GameScreen class which is the main game logic and screen.
+train.py: Contains experimental Train class for future development.
 
 ## Future Improvements
 Additional Shapes: Add more shape types with unique behaviors and point values.
